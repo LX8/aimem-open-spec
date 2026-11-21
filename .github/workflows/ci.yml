@@ -1,0 +1,24 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run release unit and falsification tests
+        run: cargo test --release
+      - name: Run offline benchmark and verification CLI smoke checks
+        run: |
+          cargo run --release -- bench
+          cargo run --release -- quantize-demo
+          cargo run --release -- verify-gate
+          cargo run --release -- export-manifest > /dev/null
