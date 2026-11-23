@@ -1,5 +1,7 @@
 # Aimem Open Local AI Memory Standard (`aimem-open-spec`)
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24476260.svg)](https://doi.org/10.5281/zenodo.24476260) [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--0139--3700-A6CE39)](https://orcid.org/0009-0009-0139-3700)
+
 **An open, zero-dependency Rust reference specification, Popperian verification gate, adaptive `FP32/Q8/Q4` vector quantization codec, and reproducible compute-savings benchmark for user-owned local AI memory (`GPL-3.0-or-later`).**
 
 > **Why this exists:** Every new AI session forgets your standards, repeats old mistakes, and wastes cloud GPU compute re-reading your context from scratch. Keeping portable, verified memory locally on your own hardware makes every project faster across any AI tool—while cutting redundant cloud token processing, electricity draw, and demand for new data centers.
