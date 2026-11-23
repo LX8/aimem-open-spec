@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use the Aimem Open Local AI Memory Standard or its adaptive quantization benchmark, please cite this release."
+type: software
+title: "Aimem Open Local AI Memory Standard: aimem.envelope.v1 Protocol, Popperian Falsifier Gate & Adaptive FP32/Q8/Q4 Quantization Benchmark"
+version: "0.1.0"
+date-released: "2026-11-22"
+license: GPL-3.0-or-later
+repository-code: "https://github.com/LX8/aimem-open-spec"
+url: "https://doi.org/10.5281/zenodo.24476260"
+doi: "10.5281/zenodo.24476260"
+authors:
+  - family-names: "Lemos Cavalcante Ferreira"
+    given-names: "Alexei"
+    orcid: "https://orcid.org/0009-0009-0139-3700"
+    affiliation: "Lx8 Labs (Berlin, Germany)"
+keywords:
+  - "local-first AI"
+  - "AI memory"
+  - "open standard"
+  - "Rust"
+  - "quantization"
+  - "privacy"
+  - "falsification"
+  - "MCP"
+identifiers:
+  - type: doi
+    value: "10.5281/zenodo.24476259"
+    description: "Zenodo concept DOI (all versions)"
+  - type: doi
+    value: "10.5281/zenodo.24476260"
+    description: "Zenodo archive for release v0.1.0"
