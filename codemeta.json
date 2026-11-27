@@ -1,0 +1,51 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Aimem Open Local AI Memory Standard",
+  "version": "0.1.0",
+  "datePublished": "2026-11-22",
+  "description": "Open, zero-dependency Rust reference specification, Popperian verification gate, statutory DLP boundary rules, adaptive FP32/Q8/Q4 quantization codec, and W3C RO-Crate interchange standard for local-first user-owned knowledge vaults.",
+  "codeRepository": "https://github.com/LX8/aimem-open-spec",
+  "issueTracker": "https://github.com/LX8/aimem-open-spec/issues",
+  "identifier": "https://doi.org/10.5281/zenodo.24476259",
+  "url": "https://github.com/LX8/aimem-open-spec",
+  "programmingLanguage": [
+    "Rust"
+  ],
+  "operatingSystem": [
+    "Linux",
+    "macOS",
+    "Windows",
+    "WASI"
+  ],
+  "license": [
+    "https://spdx.org/licenses/GPL-3.0-or-later",
+    "https://spdx.org/licenses/CC-BY-SA-4.0",
+    "https://spdx.org/licenses/CC0-1.0"
+  ],
+  "author": [
+    {
+      "@type": "Person",
+      "@id": "https://orcid.org/0009-0009-0139-3700",
+      "givenName": "Alexei",
+      "familyName": "Lemos Cavalcante Ferreira",
+      "email": "ferreira.alexei@gmail.com",
+      "affiliation": {
+        "@type": "Organization",
+        "name": "LX8 Labs (Berlin, Germany)"
+      }
+    }
+  ],
+  "keywords": [
+    "local-first",
+    "open standard",
+    "W3C RO-Crate",
+    "SQLCipher",
+    "Rust",
+    "WASI",
+    "quantization",
+    "privacy",
+    "REUSE 3.3",
+    "EU Data Act"
+  ]
+}

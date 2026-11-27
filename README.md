@@ -1,6 +1,6 @@
 # Aimem Open Local AI Memory Standard (`aimem-open-spec`)
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24476260.svg)](https://doi.org/10.5281/zenodo.24476260) [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--0139--3700-A6CE39)](https://orcid.org/0009-0009-0139-3700)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24476260.svg)](https://doi.org/10.5281/zenodo.24476260) [![ORCID](https://img.shields.io/badge/ORCID-0009--0009--0139--3700-A6CE39)](https://orcid.org/0009-0009-0139-3700) [![CI](https://github.com/LX8/aimem-open-spec/actions/workflows/ci.yml/badge.svg)](https://github.com/LX8/aimem-open-spec/actions/workflows/ci.yml) [![REUSE status](https://img.shields.io/badge/REUSE-3.3%20compliant-2563eb)](./REUSE.toml)
 
 **An open, zero-dependency Rust reference specification, Popperian verification gate, adaptive `FP32/Q8/Q4` vector quantization codec, and reproducible compute-savings benchmark for user-owned local AI memory (`GPL-3.0-or-later`).**
 
@@ -39,6 +39,8 @@ cargo run --release -- export-manifest
 - **Epistemic & Formal-Proof Verifier (`Rust` / `Wasm`, `GPL-3.0-or-later`):** https://github.com/LX8/tupa-epistemic-verifier
 - **Pharos Offline Democratic-Resilience Observatory (`GPL-3.0-or-later` / `CC BY-SA 4.0` / `CC0 1.0`):** https://github.com/LX8/pharos
 
-## License
+## License, Legal Scope & Governance
 
-Free and Open Source Software licensed under **GNU General Public License v3.0 or later (`GPL-3.0-or-later`)**. Independently usable with zero commercial dependencies. See [`LICENSE`](./LICENSE).
+- **FSFE REUSE 3.3 Compliant ([REUSE.toml](./REUSE.toml)):** Reference validator code (`src/**`, `Cargo.toml`, `.github/**`) is licensed under **GNU General Public License v3.0 or later (`GPL-3.0-or-later`, [`LICENSE`](./LICENSE))**; the open protocol specification ([`SPEC.md`](./SPEC.md)) and documentation under **`CC-BY-SA-4.0`**; and metadata manifests ([`CITATION.cff`](./CITATION.cff), [`codemeta.json`](./codemeta.json)) under **`CC0-1.0`**.
+- **Security, Privacy & EU CRA Boundary:** See [`SECURITY.md`](./SECURITY.md) (90-day disclosure, EU Data Act / GDPR / LGPD offline privacy, EU CRA Recital 18 non-commercial open-source scope, GPLv3 §§ 15–16 warranty notice).
+- **Five-Layer Ethics Scope & DCO 1.1 Contributing:** See [`ETHICS.md`](./ETHICS.md) and [`CONTRIBUTING.md`](./CONTRIBUTING.md). Independently usable with zero commercial dependencies.
